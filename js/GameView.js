@@ -3,6 +3,8 @@ export default class GameView {
     this.root = root;
     this.root.innerHTML = `
     <div class="header">
+    <input type ="text" id ="player-1-name">
+    <input type ="text" id ="player-2-name">
     <div class="header__turn">
     </div>
     <div class="header__status">
